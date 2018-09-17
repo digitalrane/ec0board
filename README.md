@@ -13,6 +13,15 @@ This board uses custom footprints and 3d models for the following. If you find a
 * AT90USB1286 model and footprint
 * Ingwaz rune (because I like to ensure runes or sigils adorn my work)
 
+Fuses
+=====
+
+The fuses on your AT90USB1286 should be set for external crystal oscillator operation, with JTAG disabled, to free up enough GPIOs. We
+also want SPIEN set so we can use the ISP to flash/recover the chip.
+
+The fules should be set to -
+(E:F3, H:D9, L:DE)
+
 BOM
 ===
 
