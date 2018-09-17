@@ -1,0 +1,28 @@
+Drill report for /home/ec0/Boards/kb/nummacro/nummacro.kicad_pcb
+Created on Thu 06 Sep 2018 10:03:22 AEST
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'nummacro.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.40mm  0.016"  (72 holes)
+    T2  0.60mm  0.024"  (2 holes)  (with 2 slots)
+    T3  0.85mm  0.033"  (2 holes)
+    T4  1.00mm  0.039"  (180 holes)
+    T5  1.50mm  0.059"  (174 holes)  (with 174 slots)
+
+    Total plated holes count 430
+
+
+Drill file 'nummacro-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  1.70mm  0.067"  (174 holes)
+    T2  3.99mm  0.157"  (87 holes)
+
+    Total unplated holes count 261

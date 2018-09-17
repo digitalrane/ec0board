@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Keyboard)(type KiCad)(uri /home/ec0/Boards/kb/mechkeys/kicad-modules/Keyboard.pretty)(options "")(descr ""))
+  (lib (name MXBrown)(type KiCad)(uri "$(KIPRJMOD)/MXBrown.pretty")(options "")(descr ""))
+)
