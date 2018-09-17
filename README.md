@@ -20,7 +20,7 @@ For U1, AT90USB1286 is the sensible option, because no keyboard needs the host m
 If you need host mode, you're a maniac, and I want to know you, get in touch.
 
 Designator | Quantity | Description | Purpose
----------------------------------------------
+-----------|----------|-------------|--------
 Y1 | 1 | 16Mhz HC49 Crystal | Clock source for MCU |
 J1 | 1 | Molex-105017-0001 Micro USB connector | Reticulating splines |
 U1 | 1 | AT90USB1286 or AT90USB1287 | Main MCU | Pwning n00bs |
