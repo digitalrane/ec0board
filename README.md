@@ -19,21 +19,23 @@ BOM
 For U1, AT90USB1286 is the sensible option, because no keyboard needs the host mode support of AT90USB1287.
 If you need host mode, you're a maniac, and I want to know you, get in touch.
 
-Y1: 16Mhz HC49 Crystal (Clock source for MCU)
-J1: Molex-105017-0001 Micro USB connector
-U1: AT90USB1286 or AT90USB1287 (Main MCU)
-C1,C2: 22pF 0805 MLCC Capacitors (Crystal stabilisation)
-C3: 1uF 0805 MLCC Capacitor (Reset debouncing)
-C4,C5: 10uF 0805 MLCC Capacitor (Power filtering)
-SW1,SW2: Pretty much any 6x6mm SMD SPST momentary button
-Q1: SOT-23 NPN Transistor (Switching GND to the main backlight)
-CON1: *OPTIONAL* 2x3 2.54" header (For ISP programming. Needed to set fuses or load bootloader if missing/corrupted.)
-SW3 onwards: 87xCherry MX key switches
-D88: *OPTIONAL* SK6812 RGB LED (für das blinkenlichten)
-D+: 87xLL4148 SMD Signal Diode (for creating signal diode key matrix)
-R91: 1k 0805 5% Resistor (Pull down for backlight switch)
-R75,R76: 22r 0805 1% Resistor (USB Signal impedance matching)
-R+: 87x470r 0805 5% Resistor (Backlight current limiting)
+Designator | Quantity | Description | Purpose
+---------------------------------------------
+Y1 | 1 | 16Mhz HC49 Crystal | Clock source for MCU |
+J1 | 1 | Molex-105017-0001 Micro USB connector | Reticulating splines |
+U1 | 1 | AT90USB1286 or AT90USB1287 | Main MCU | Pwning n00bs |
+C1,C2 | 2 | 22pF 0805 MLCC Capacitors | Crystal stabilisation |
+C3 | 1 | 1uF 0805 MLCC Capacitor | Reset signal debouncing |
+C4,C5 | 2 | 10uF 0805 MLCC Capacitor | Power filtering |
+SW1,SW2 | 2 | Pretty much any 6x6mm SMD SPST momentary button | Reset and HWB buttons |
+Q1 | 1 | SOT-23 NPN Transistor | Switching GND to the main backlight |
+CON1 | 1 *OPTIONAL* | 2x3 2.54" header | For ISP programming. Needed to set fuses or fix bootloader |
+SW3+ | 87 | Cherry MX key switches ||
+D88 | 1 *OPTIONAL* | SK6812 RGB LED | für das blinkenlichten |
+D\* | 87 | LL4148 SMD Signal Diode | for creating signal diode key matrix |
+R91 | 1 | 1k 0805 5% Resistor | Pull down for backlight switch |
+R75,R76 | 2 | 22r 0805 1% Resistor | USB Signal impedance matching |
+R\* | 87 | 470r 0805 5% Resistor | Backlight current limiting |
 
 And another thing
 =================
