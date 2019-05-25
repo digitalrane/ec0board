@@ -1,4 +1,4 @@
-update=Mon 01 Apr 2019 09:29:40 AEDT
+update=Thu 06 Sep 2018 08:26:25 AEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,4 +27,17 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=
+LibDir=/home/ec0/Boards/doragasu-kicad-lib;/home/ec0/Boards/kicad-lib;/home/ec0/Boards/kicad-libs2
+[eeschema/libraries]
+LibName1=../kicad-libs/device
+LibName2=../kicad-libs/cherrymx
+LibName3=device
+LibName4=atmel
+LibName5=conn
+LibName6=power
+LibName7=Oscillators
+LibName8=/home/ec0/Boards/doragasu-kicad-lib/doragasu
+LibName9=AT90USB1286-AU
+LibName10=switches
+LibName11=diode
+LibName12=LED.pretty/LED
