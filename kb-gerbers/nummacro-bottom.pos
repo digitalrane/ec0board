@@ -1,4 +1,4 @@
-### Module positions - created on Sat 31 Aug 2019 16:21:28 AEST ###
+### Module positions - created on Sun 01 Sep 2019 07:04:56 AEST ###
 ### Printed by Pcbnew version kicad 5.1.4+dfsg1-1
 ## Unit = mm, Angle = deg.
 ## Side : bottom
@@ -9,10 +9,10 @@ C4        22pF            C_0805_2012Metric_Pad1.15x1.40mm_HandSolder  -328.2250
 C5        22pF            C_0805_2012Metric_Pad1.15x1.40mm_HandSolder  -334.8000  -115.3500    0.0000  bottom
 C6        1uF             C_0805_2012Metric_Pad1.15x1.40mm_HandSolder  -318.7500  -108.6400  270.0000  bottom
 C7        100n            C_0805_2012Metric_Pad1.15x1.40mm_HandSolder  -369.9383  -125.2728  180.0000  bottom
-C8        10uF            C_0805_2012Metric_Pad1.15x1.40mm_HandSolder  -369.9358  -123.3134   -0.0000  bottom
+C8        10uF            C_0805_2012Metric_Pad1.15x1.40mm_HandSolder  -369.9358  -123.3134    0.0000  bottom
 D1        D               D_MiniMELF                                    -32.4500   -39.8999   90.0000  bottom
 D2        D               D_MiniMELF                                    -32.4200   -64.2524   90.0000  bottom
-D3        D               D_MiniMELF                                    -34.3500  -138.0501   90.0000  bottom
+D3        D               D_MiniMELF                                    -35.4076  -138.4580   90.0000  bottom
 D4        D               D_MiniMELF                                    -36.2250   -81.7999   90.0000  bottom
 D5        D               D_MiniMELF                                    -39.1100   -99.5500   90.0000  bottom
 D6        D               D_MiniMELF                                    -43.5500  -119.4501   90.0000  bottom
@@ -191,8 +191,8 @@ R90       470             R_0805_2012Metric_Pad1.15x1.40mm_HandSolder  -362.7120
 R91       470             R_0805_2012Metric_Pad1.15x1.40mm_HandSolder  -362.8009   -52.9463   90.0000  bottom
 R92       470             R_0805_2012Metric_Pad1.15x1.40mm_HandSolder  -362.8136   -71.9799   90.0000  bottom
 R93       470             R_0805_2012Metric_Pad1.15x1.40mm_HandSolder  -362.8746  -129.0332   90.0000  bottom
-SW1       SW_RESET        SW_SPST_B3SL-1002P                           -312.4850  -115.2700  180.0000  bottom
-SW2       SW_HWB          SW_SPST_B3SL-1002P                           -312.4850  -101.4600    0.0000  bottom
+SW1       SW_RESET        SW_SPST_EVQQ2                                -312.4850  -115.2586  180.0000  bottom
+SW2       SW_HWB          SW_SPST_EVQQ2                                -312.4850  -101.4600    0.0000  bottom
 U1        AT90USB1286     QFP80P1600X1600X120-64N                      -332.5000   -96.4000  180.0000  bottom
 Y1        16Mhz           Crystal_SMD_HC49-SD_HandSoldering            -331.2625  -111.7200    0.0000  bottom
 ## End
