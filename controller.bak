@@ -167,16 +167,8 @@ Text GLabel 6900 1300 2    39   Input ~ 0
 Col16
 Text GLabel 6900 1200 2    39   Input ~ 0
 Col17
-Text GLabel 6950 2500 2    39   Input ~ 0
-BL
-Text GLabel 6950 2400 2    39   Input ~ 0
-CapsBL
-Text GLabel 6950 2600 2    39   Input ~ 0
-ScrollBL
-Text GLabel 6950 2700 2    39   Input ~ 0
-FnBL
 $Comp
-L nummacro-rescue:AVR-ISP-6 CON1
+L nummacro-rescue:AVR-ISP-6-nummacro-rescue CON1
 U 1 1 5BA4A806
 P 7700 2050
 AR Path="/5BA4A806" Ref="CON1"  Part="1" 
@@ -621,4 +613,12 @@ Wire Wire Line
 	2150 3050 2150 2900
 Wire Wire Line
 	2800 1400 2950 1400
+Text HLabel 6950 2400 2    50   Input ~ 0
+CapsBL
+Text HLabel 6950 2500 2    50   Input ~ 0
+BL
+Text HLabel 6950 2600 2    50   Input ~ 0
+ScrollBL
+Text HLabel 6950 2700 2    50   Input ~ 0
+FnBL
 $EndSCHEMATC
