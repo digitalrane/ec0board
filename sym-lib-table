@@ -1,8 +1,8 @@
 (sym_lib_table
   (lib (name nummacro-rescue)(type Legacy)(uri ${KIPRJMOD}/nummacro-rescue.lib)(options "")(descr ""))
-  (lib (name device)(type Legacy)(uri ${KIPRJMOD}/../kicad-libs/device.lib)(options "")(descr ""))
-  (lib (name cherrymx)(type Legacy)(uri ${KIPRJMOD}/../kicad-libs/cherrymx.lib)(options "")(descr ""))
-  (lib (name doragasu)(type Legacy)(uri /home/ec0/Boards/doragasu-kicad-lib/doragasu.lib)(options "")(descr ""))
+  (lib (name device)(type Legacy)(uri ${KIPRJMOD}/../kicad-libs/device.lib)(options "")(descr "")(disabled))
+  (lib (name cherrymx)(type Legacy)(uri ${KIPRJMOD}/../kicad-libs/cherrymx.lib)(options "")(descr "")(disabled))
+  (lib (name doragasu)(type Legacy)(uri /home/ec0/Boards/doragasu-kicad-lib/doragasu.lib)(options "")(descr "")(disabled))
   (lib (name AT90USB1286-AU)(type Legacy)(uri ${KIPRJMOD}/AT90USB1286-AU.lib)(options "")(descr ""))
-  (lib (name LED1)(type Legacy)(uri /home/ec0/Boards/kicad-lib/LED.pretty/LED.lib)(options "")(descr ""))
+  (lib (name LED1)(type Legacy)(uri /home/ec0/Boards/kicad-lib/LED.pretty/LED.lib)(options "")(descr "")(disabled))
 )

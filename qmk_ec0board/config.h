@@ -27,15 +27,15 @@ https://github.com/obdev/v-usb/blob/master/usbdrv/USB-IDs-for-free.txt
 #define PRODUCT_ID      0x05df
 #define DEVICE_VER      0x0001
 #define MANUFACTURER    ec0
-#define PRODUCT         ec0board
-#define DESCRIPTION     QMK keyboard firmware for ec0v1
+#define PRODUCT         ec0board v3
+#define DESCRIPTION     QMK keyboard firmware for ec0v3
 
 /* 7 Rows of 18 keys, roughly */
-#define MATRIX_ROWS 7
+#define MATRIX_ROWS 6
 #define MATRIX_COLS 18
 
 /* Row and column pins non-contiguous for PCB layout reasons */
-#define MATRIX_ROW_PINS { D2, D1, D0, D3, D4, D5, D6 }
+#define MATRIX_ROW_PINS { D2, D1, D0, D3, D4, D5 }
 #define MATRIX_COL_PINS { E0, E1, C0, C1, C2, C3, C4, C5, C6, C7, A7, A6, A5, A4, A3, A2, A1, A0 }
 #define UNUSED_PINS
 
